@@ -17,93 +17,57 @@
             <nav>
                 <ul>
                     <li><a href="./publications.html">Publications</a></li>
-                    <li><a href="./code.html">Code & Projects</a></li>
+                    <li><a href="./code.html">Code</a></li>
                     <li><a href="./contact.html">Contact</a></li>
                 </ul>
             </nav>
         </header>
 
         <main>
-            <h1>Code & Projects</h1>
+            <h1>Code</h1>
 
-            <p>Selected research projects and code repositories related to structural health monitoring, Bayesian inference, and machine learning for marine structures.</p>
+            <p style="text-align: justify;">Code for different projects, include research papers, educational materials and various software tools. Primarily contains Bayesian inference, machine learning and computational mechanics applications. Code for different projects, include research papers, educational materials and various software tools.</p>
 
             <h2>Research Projects</h2>
 
             <div class="project-item">
-                <h3 class="project-title">Wind-Assisted Propulsion Systems (WAPS) Digital Twin</h3>
-                <div class="project-meta">2024-Present | Lead Researcher</div>
+                <h3 class="project-title">Decision-theoretic model assessment for structural deterioration monitoring</h3>
+                <!-- <div class="project-meta">2024-Present | Lead Researcher</div> -->
                 <div class="project-description">
-                    <p>Development of a digital twin framework for quantifying net WAPS power contribution and designing optimal risk-based inspection strategies. The project integrates multiple data modalities and explores graph neural networks for subsystem interface modelling.</p>
-                    <p>Collaboration with NTUA, TU Delft, MARIN, Ocean Wings, and DNV.</p>
+                    <p>Code and data to reproduce results from: <a href="https://doi.org/10.1016/j.ymssp.2024.111776" target="_blank">"On decision-theoretic model assessment for structural deterioration monitoring, (MSSP, 2024)"</a>. Implements Bayesian inference using Numpyro (JAX) and implements decision-theoretic utility function calculations for model assessment in structural health monitoring applications. <a href="https://github.com/nsilionis/Model-Assessment" target="_blank">(Repo)</a></p>
                 </div>
                 <div class="project-tags">
-                    <span class="tag">Digital Twins</span>
-                    <span class="tag">Graph Neural Networks</span>
-                    <span class="tag">Risk-Based Inspection</span>
-                    <span class="tag">Marine Engineering</span>
-                </div>
-            </div>
-
-            <div class="project-item">
-                <h3 class="project-title"><a href="https://www.dthor.eu/" target="_blank">dTHOR - Digital Ship Structural Health Monitoring</a></h3>
-                <div class="project-meta">2022-2024 | Research Engineer | European Defense Fund</div>
-                <div class="project-description">
-                    <p>Development of Bayesian approaches for structural deterioration monitoring and stochastic fatigue analysis frameworks for naval structures. Contributed to deliverables on linear damage accumulation and fracture mechanics approaches.</p>
-                    <p>Multi-national defence consortium project focused on advanced SHM techniques for naval vessels.</p>
-                </div>
-                <div class="project-tags">
-                    <span class="tag">Structural Health Monitoring</span>
                     <span class="tag">Bayesian Inference</span>
-                    <span class="tag">Fatigue Analysis</span>
-                    <span class="tag">Naval Structures</span>
-                </div>
-            </div>
-
-            <h2>Code Repositories</h2>
-
-            <div class="project-item">
-                <h3 class="project-title"><a href="https://github.com/nsilionis" target="_blank">GitHub Profile</a></h3>
-                <div class="project-description">
-                    <p>Public repositories featuring implementations of research methods in structural health monitoring, Bayesian inference, and machine learning for engineering applications.</p>
-                </div>
-                <div class="project-tags">
-                    <span class="tag">Python</span>
-                    <span class="tag">PyTorch</span>
-                    <span class="tag">NumPyro</span>
-                    <span class="tag">MATLAB</span>
-                </div>
-            </div>
-
-            <h2>Software & Tools</h2>
-
-            <div class="project-item">
-                <h3 class="project-title">Bayesian SHM Toolkit</h3>
-                <div class="project-description">
-                    <p>Collection of Python tools for Bayesian structural health monitoring, including optimal sensor placement algorithms, uncertainty quantification frameworks, and decision-theoretic model assessment methods.</p>
-                </div>
-                <div class="project-tags">
-                    <span class="tag">Python</span>
-                    <span class="tag">NumPyro</span>
+                    <span class="tag">Decision Theory</span>
+                    <span class="tag">Numpyro</span>
                     <span class="tag">JAX</span>
-                    <span class="tag">Uncertainty Quantification</span>
                 </div>
-            </div>
 
             <div class="project-item">
-                <h3 class="project-title">Deep Learning Surrogate Models for FEA</h3>
+                <h3 class="project-title">Hierarchical Bayesian modelling for crack growth monitoring</h3>
+                <!-- <div class="project-meta">2024-Present | Lead Researcher</div> -->
                 <div class="project-description">
-                    <p>Implementation of convolutional conditional variational autoencoders and other deep learning architectures for spatial field solution reconstruction in finite element analysis applications.</p>
+                    <p>Implements hierarchical Bayesian modelling using Numpyro (JAX) to estimate crack growth model parameters using crack growth data. Hierarchical models used in the context of multi-task learning to improve inference performance by pooling information from similar structural components. Results compared to typical single-task learning (no pooling). <a href="https://github.com/nsilionis/hierarchical-crack-growth-monitoring" target="_blank">(Repo)</a></p>
                 </div>
                 <div class="project-tags">
-                    <span class="tag">PyTorch</span>
-                    <span class="tag">Deep Learning</span>
-                    <span class="tag">Surrogate Modelling</span>
-                    <span class="tag">FEA</span>
+                    <span class="tag">Bayesian Inference</span>
+                    <span class="tag">Hierarchical Bayesian Modelling</span>
+                    <span class="tag">Multi-Task Learning</span>
+                    <span class="tag">Numpyro</span>
+                    <span class="tag">JAX</span>
                 </div>
-            </div>
 
-        </main>
+            <h2>Educational Materials</h2>
+
+            <div class="project-item">
+                <h3 class="project-title">Educational Finite Element Library</h3>
+                <!-- <div class="project-meta">2024-Present | Lead Researcher</div> -->
+                <div class="project-description">
+                    <p>Implements a modular, object-oriented finite element analysis library in Pythonfor educational purposes, developed as part of an introductory level FEA course. <a href="https://github.com/nsilionis/fem-playground" target="_blank">(Repo)</a></p>
+                <div class="project-tags">
+                    <span class="tag">Finite Element Method</span>
+                    <span class="tag">Python</span>
+                </div>
 
         <footer>
             <p>&copy; 2025 Nicholas E. Silionis</p>
