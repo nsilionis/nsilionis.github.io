@@ -223,6 +223,7 @@ main h3 {
 
 .contact-info p {
     margin-bottom: 0.5rem;
+    text-align: justify;
 }
 
 .contact-info a {
