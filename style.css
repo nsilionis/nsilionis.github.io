@@ -167,9 +167,11 @@ main h3 {
 }
 
 /* Projects/Code section */
+
 .project-item {
     margin-bottom: 2rem;
     padding-bottom: 1.5rem;
+    text-align: justify;
 }
 
 .project-item:not(:last-child) {
@@ -182,7 +184,7 @@ main h3 {
 }
 
 .project-title a {
-    color: #333;  /* Keep project titles dark */
+    color: #5a7a9e;  /* Keep project titles dark */
     text-decoration: none;
 }
 
@@ -191,7 +193,7 @@ main h3 {
 }
 
 .project-meta {
-    color: #666;
+    color: #5a7a9e;
     font-size: 0.9rem;
     margin-bottom: 0.5rem;
 }
@@ -199,6 +201,17 @@ main h3 {
 .project-description {
     margin-top: 0.5rem;
     line-height: 1.7;
+    text-align: justify;
+}
+
+.project-description a {
+    color: #5a7a9e;
+    text-decoration: none;
+}
+
+.project-description a:hover {
+    color: #4a6a8e;
+    text-decoration: underline;
 }
 
 .project-tags {
