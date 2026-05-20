@@ -184,12 +184,23 @@ main h3 {
 }
 
 .project-title a {
-    color: #5a7a9e;  /* Keep project titles dark */
+    color: #5a7a9e;
     text-decoration: none;
 }
 
 .project-title a:hover {
-    color: #5a7a9e;  /* Change to steel blue on hover */
+    color: #5a7a9e;
+}
+
+.github-link {
+    font-size: 0.85em;
+    vertical-align: middle;
+    margin-left: 0.3rem;
+    opacity: 0.6;
+}
+
+.github-link:hover {
+    opacity: 1;
 }
 
 .project-meta {
